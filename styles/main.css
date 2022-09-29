@@ -119,3 +119,44 @@ main{
         margin: 0.5rem;
     }
 }
+
+.medals-container{
+    display: flex;
+    flex-wrap: no wrap;
+    gap:1rem;
+    overflow: scroll;
+}
+.medals-section{
+   padding: 1.5rem;  
+}
+ .medal-img{
+    min-width: 270px;
+    min-height: 240px;
+    max-width: 270px;
+    max-height: 240px;
+    padding: 0.1rem;
+    border-radius: 0.4rem;
+ }
+ .section-title{
+    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem); 
+ }
+ .see-all-awards{
+    min-width: 270px;
+    min-height: 240px;
+    max-width: 270px;
+    max-height: 240px;
+    padding: 0.1rem;
+    border-radius: 0.4rem;
+    background: #a2ecb9;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .medals-container{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+ }
+ .medals-container::-webkit-scrollbar {
+    display: none;
+  }
