@@ -85,12 +85,10 @@ nav a{
 }
 .hero-txt p{
     margin-top: 1rem;
-    background: #fff;
-    color: #090420;
     font-weight: 600;
 }
 .hero-txt p strong{
-    color: green;
+    color:#fff;
 }
 main{
   
